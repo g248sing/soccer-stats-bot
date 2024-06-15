@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "named-sequencer-426022-f3",
+  "private_key_id": "20bc589561ca4cf3d2b1813da352f154bd5a6220",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCIfWiKkw4ItTOG\n2/oOswfqA+RQ1N/JJugWsJ55GQB000Yk0a6GYkPzW4yq+W95JGSK9r40MNdtBVXK\nfTQC+HFoouGwduBPE1ApjrtXUYGdkbLOPaBm5GGEAnkEVQ+MXfPy5WO26/ruJf/9\nVPfXVA2ebKKujS3KeqJl9Ee4xkLt+sehErsjVf6c2TzOWorwa0GhgBUUCP0dktyU\nVfLSeezn0zGQIHMyzdRK74WH3VSiB4EXKirAawFEkYGYZeokKO73GNVBRydpt/t7\nPcYufnK6cePncyMoHMlFIz+w6wZexNwcyG3fF6f5Cbi6lXXYirv3W3AK1RjtppKX\n7X5A5rQrAgMBAAECggEAQjqcFhW6KxaF3Kvz/9r2faKK0IAi4K/c0Vm9Y+RyWL3F\n3QrTxUh8UWM8dCAZ663xjY6iB6AlgDSlBt7O9JwKJ6xVl/Nu71/fN3MXS4z0uHkg\nyruTkCnEebJbd3Mw2rsiKtwNEQ8bkSBmQU5P/q+99gAfxlQiAoyULaWlga7OfjvK\n1JSwS3L+Fp9McXhgMuAiP9qnxJk4gxZi1yDR+nCZY2io128+RFYHnydD1Y4Xkh0F\nT/XUYQKA4c31Re7uY3dvAi6IhiTKPJ736idst4W+8VM7G29tiiOehRRxeUzK4Trz\nDxEU4af+x/WnxKzmxKwnZHjypccwQ/EqV1rUVh/X5QKBgQDARtNyl3JvAFy53Ryl\nvUxl0nONuLRSKNem6Mv6pSuoFnW6cFRRpMQuibj+54k2i098i8G1NpKPE/ysKRqy\nn8ROOlpT5HMjExhZ+78KT1HzlHemsVffy6bMiJWyrThE7yWddt36FsELLJ4hl6OL\nM8wSGnpJQAG2ROAmXfaSRckErQKBgQC1uYJKRaghUqF+V/GJtRBiJXn9fLkWxxh4\nvn7vkLFW/8Yn8BI36eFAgYyK0Fcq5BMIpXMCnHqFd62LDEAudiZS2tTWwvhw5FAy\nAYbp9aNeu9OJ0tr+odUEuIEFMZkpoSHP+l+M/F0Y8NoW5fvLa5fVOmhp8fR5r4/c\nPp/NFrTfNwKBgQCZAoPYKA8HqHkh64SVnEvEp7IPMNJGo3vhtlZE0tYoAB+Vyzg+\ndGkuQ6j1KNn3juslSK5Q/+mndJdZhahaR2vXePZS1nSNj++MBBtmH/MubJK/E1fD\nn3PQRk0ikFg7+zeq1GIXV64tr0bzopGiAAlAytNPoWD7ZFogDhxfEKvETQKBgE0f\nFmk42JqTu8+nuO0NN4+/gd8PIGnHQt5zUeGPkYNvdwQaAVFTY3IByMhclLGyK1W/\nCWkxSVn9KVxabZ6KK8d78VnXUqJuco5WUZBW2+dnZOYX4zKvMX0YZED1BKBDLttZ\n0VU/AK+F/7g6EDsLRVuLtyZHNc6ysCXzOdRK76XPAoGBAI7zSlGoRFZ3KdGd3DkT\nqabdvnSWwyJHR353AF59Jj7k94TNri3I+RtAxuAWglGT5Bh0OoHUzsOx+TdlpsJu\nbpGTXS1vVsW1JWOs6cmDIDwBUUKS7OEfdJ7FY92ctOSSR54IcrWLp5wMba4LcX3Y\n4R1TLlIOpzLfGUZ0bUZDz1Tn\n-----END PRIVATE KEY-----\n",
+  "client_email": "discord-footy-bot@named-sequencer-426022-f3.iam.gserviceaccount.com",
+  "client_id": "117874683946020878726",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/discord-footy-bot%40named-sequencer-426022-f3.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

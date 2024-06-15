@@ -1,0 +1,25 @@
+azure-storage-file-share==12.6.0
+beautifulsoup4==4.10.0
+dnspython==2.2.0
+highlight-text==0.2
+lxml==4.8.0
+matplotlib==3.5.1
+numpy==1.22.2
+pandas==1.4.1
+Pillow==9.0.1
+pymongo==4.0.1
+python-dotenv==0.19.2
+requests==2.27.1
+structlog==21.5.0
+
+# Nextcord
+nextcord==2.0.0a10
+PyNaCl
+aiodns
+Brotli
+cchardet
+orjson
+youtube_dl==2021.12.17
+
+# GCP
+google-cloud-logging==3.5.0

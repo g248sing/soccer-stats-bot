@@ -1,0 +1,44 @@
+image: docker:latest
+
+services:
+  - docker:dind
+
+before_script:
+    - docker login --username=_ --password=$HEROKU_API_KEY registry.heroku.com
+
+stages:
+    - staging
+    - production
+
+staging:
+    stage: staging
+    variables:
+      HEROKU_REGISTRY_IMAGE: registry.heroku.com/$HEROKU_APP_STAGING/bot
+      HEROKU_APP: $HEROKU_APP_STAGING
+    script:
+        - docker build 
+          --quiet
+          --tag $HEROKU_REGISTRY_IMAGE
+          --file ./Dockerfile
+          "."
+        - docker push $HEROKU_REGISTRY_IMAGE --quiet
+        - docker run --rm -e HEROKU_API_KEY=$HEROKU_API_KEY sue445/heroku-cli heroku container:release bot --app $HEROKU_APP
+    only:
+        - staging
+        - dev
+
+production:
+    stage: production
+    variables:
+      HEROKU_REGISTRY_IMAGE: registry.heroku.com/$HEROKU_APP_PRODUCTION/bot
+      HEROKU_APP: $HEROKU_APP_PRODUCTION
+    script:
+        - docker build 
+          --quiet
+          --tag $HEROKU_REGISTRY_IMAGE
+          --file ./Dockerfile
+          "."
+        - docker push $HEROKU_REGISTRY_IMAGE --quiet
+        - docker run --rm -e HEROKU_API_KEY=$HEROKU_API_KEY sue445/heroku-cli heroku container:release bot --app $HEROKU_APP
+    only:
+        - prod
